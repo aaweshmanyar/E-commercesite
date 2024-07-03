@@ -77,8 +77,8 @@ function Cart() {
 
     // Payment integeration
     var options = {
-      key: "rzp_test_qsWJIMAXJe3Eul",
-      key_secret: "sjNUv8uvI3K0kNvUMlW0JvxI",
+      key: import.meta.env.VITE_RAZORPAY_KEY,
+      key_secret: import.meta.env.VITE_RAZORPAY_SECRET,
       amount: parseInt(grandTotal * 100),
       currency: "INR",
       order_receipt: "order_rcptid_" + name,

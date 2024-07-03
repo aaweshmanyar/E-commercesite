@@ -6,6 +6,7 @@ import Filter from '../../components/filter/Filter'
 import ProductCard from '../../components/productCard/ProductCard'
 import Testimonial from '../../components/testimonial/Testimonial'
 import Track from '../../components/track/Track';
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   
